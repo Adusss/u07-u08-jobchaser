@@ -1,0 +1,42 @@
+.job-card {
+  display: flex;
+  flex-direction: column;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  word-wrap: break-word; /* starsze przeglądarki */
+  overflow-wrap: break-word; /* nowsze standardy */
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+}
+
+.job-card-id {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.job-card h3 {
+  padding: 0 0 10px 0;
+}
+
+.job-card p {
+  padding: 0 0 10px 0;
+  color: #98a3b6;
+}
+
+.job-card-headline {
+  text-shadow: var(--text-shadow);
+}
+
+.job-card-body {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.job-card-adress {
+  margin-top: 1rem;
+}

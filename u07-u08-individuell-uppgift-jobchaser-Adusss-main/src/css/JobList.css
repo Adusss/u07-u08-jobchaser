@@ -1,0 +1,26 @@
+.joblist-main {
+  padding: 50px 400px 50px 400px;
+  max-width: 100%;
+}
+
+.joblist-ul li {
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.job-card-adress {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1170px) {
+  .joblist-main {
+    padding: 20px 20px 20px 20px;
+  }
+}

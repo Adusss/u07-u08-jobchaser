@@ -1,0 +1,61 @@
+body {
+  color: var(--color-white);
+  color: var(--color-text-lightgray);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background-color: var(--color-primary);
+  height: 100%;
+  /* max-height: 45px; */
+  min-height: 45px;
+  color: var(--color-text-lightgray);
+  box-shadow: var(--box-shadow);
+}
+
+nav a {
+  margin-right: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-shadow: var(--text-shadow);
+}
+
+nav button {
+  padding: 0;
+  border-radius: 6px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: var(--color-text-lightgray);
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-family: var(--font-main);
+}
+
+nav button:hover {
+  transform: translateY(-2px);
+  color: rgb(33, 164, 216);
+}
+
+.nav-right button,
+.nav-left {
+  margin-left: 20px;
+}
+.nav a:hover {
+  transform: translateY(-2px);
+  color: rgb(33, 164, 216);
+}
+
+.nav-left a {
+  display: inline-block;
+  padding: 5px 10px;
+  transition: all 0.2s ease;
+}
+.addjob:hover {
+  transform: translateY(-2px);
+}
